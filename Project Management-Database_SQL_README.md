@@ -4,7 +4,8 @@
 This project provides a SQL-based database for management of accounting company to manage company's daily operations. The database consists of five core tables: 'Client List','Employee List', 'Case List', 'Billing List','Income Transaction List'. It supports case management, case assignments, querying capabilities and status update.
 
 ## Database Schema
-![alt text](image.png)
+<img width="1094" height="588" alt="Project Management-Database Schema" src="https://github.com/user-attachments/assets/6e615b92-835d-4d0a-a363-e4d309c80f16" />
+
 
 ### Create Tables
 '''SQL'''
@@ -126,4 +127,5 @@ WHERE invoice_id = 'INV250001';
 
 ### Example Queries 4 - Remove canceled case
 DELETE FROM job_list
+
 WHERE job_id = 'C250002';
